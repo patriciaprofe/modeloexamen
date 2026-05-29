@@ -1,0 +1,197 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modelo de Parcial</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#1f3c88;
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+.card h2{
+    color:#1f3c88;
+    margin-bottom:20px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+ul li{
+    margin-bottom:15px;
+}
+
+.highlight{
+    background:#e8f0ff;
+    border-left:5px solid #1f3c88;
+    padding:20px;
+    margin-top:20px;
+    border-radius:8px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:#1f3c88;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#16306d;
+}
+
+footer{
+    background:#1f3c88;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Modelo de Parcial</h1>
+    <p>Desarrollo de Landing Page Responsive con HTML y CSS</p>
+</header>
+
+<main class="container">
+
+    <section class="card">
+        <h2>Consigna</h2>
+
+        <p>
+            En el siguiente enlace encontrarán un documento PDF que contiene el wireframe de una 
+            <strong>landing page</strong>. A partir de ese diseño deberán desarrollar una página web 
+            funcional utilizando únicamente <strong>HTML y CSS</strong>.
+        </p>
+    </section>
+
+    <section class="card">
+
+        <h2>Requisitos de Desarrollo</h2>
+
+        <ul>
+            <li>Todo el código debe estar contenido en un único archivo llamado <strong>index.html</strong>.</li>
+
+            <li>El documento deberá incluir tanto la estructura HTML como los estilos CSS dentro del mismo archivo.</li>
+
+            <li>No se permite utilizar frameworks, librerías ni plantillas prediseñadas.</li>
+
+            <li>El diseño final debe respetar la estructura y organización visual planteada en el wireframe.</li>
+
+            <li>La paleta de colores, tipografías y estilos visuales podrán ser definidos por cada estudiante.</li>
+
+            <li>Las imágenes deberán ser invocadas desde los enlaces proporcionados en la consigna.</li>
+
+            <li>El sitio debe ser completamente <strong>responsive</strong>, adaptándose correctamente a dispositivos móviles, tablets y escritorio.</li>
+
+        </ul>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Importante</h2>
+
+        <div class="highlight">
+            Dentro del documento PDF se encuentra detallada la consigna completa, incluyendo 
+            los enlaces a las imágenes que deberán utilizar para el desarrollo del sitio.
+        </div>
+
+        <a href="ejemploParcial.pdf" class="btn">Ver PDF de la Consigna</a>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Entrega</h2>
+
+        <p>
+            El documento html generado <strong>index.html</strong> debe respetar el formato solicitado.
+        </p>
+        
+        <h3> Desde el archivo se deben ver las imágenes desde los siguientes links  </h3>
+         <ul>
+            <li><a href="logo.png">foto1  </a></li>
+            <li><a href="card1.jpg">foto1  </a></li>
+            <li><a href="card2.jpg">foto2  </a></li>
+            <li><a href="card3.jpg">foto3  </a></li>
+            <li><a href="fotonosotros.png">fotonosotros </a></li>
+            <li><a href="fondohero.jpg">fondohero </a></li>
+         </ul>
+
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Diseño y Desarrollo Web - Modelo de Parcial</p>
+</footer>
+
+</body>
+</html>
